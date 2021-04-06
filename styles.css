@@ -1,0 +1,235 @@
+body {
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Satisfy", cursive;
+}
+
+p {
+    color: #583d72;
+    font-family: "Montserrat-Dark" sans-serif;
+    font-size: 1.2rem;
+}
+
+.navbar {
+  background-color: #557a95;
+    background-color: #5c55a0;
+    background-color: #231d3c;
+
+
+    margin: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#title {
+    background-color: #a4b3b6;
+    background-color: #c2cad0;
+    color: #fff;
+    padding-bottom: 2%;
+}
+
+.big-heading {
+    font-family: "Dancing Script";
+    color: #ac3b61;
+    font-size: 3rem;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.feature-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #9f5f80;
+    color: #ac3b61;
+    font-family: "Dancing Script";
+}
+
+.feature-text {
+    color: #222;
+    font-family: "Montserrat-Dark" sans-serif;
+    font-size: 1.2rem;
+}
+
+.pricing-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #9f5f80;
+    color: #ac3b61;
+}
+
+.footer-heading {
+    font-family: "Montserrat-Dark", cursive;
+    color: #fff
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+    margin-top: -5%;
+    padding-top: 7%;
+}
+
+
+/*App icon*/
+
+.icon {
+    width: 15%;
+    height: auto;
+    border-radius: 100%;
+}
+
+.navbar-brand {
+    font-family: Ubuntu;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light" sans-serif;
+}
+
+
+/*Download buttons custom class*/
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.app-links {
+    margin-bottom: 5%;
+}
+
+
+/*Title image*/
+
+.title-image {
+    width: 60%;
+    height: auto;
+    transform: rotate(25deg);
+    position: relative;
+    right: 40%;
+    left: 10%;
+    border-radius: 9%;
+}
+
+
+/*Features secction*/
+
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+}
+
+.feature-box {
+    padding: 5%;
+}
+
+.feature-image {
+    width: 50%;
+    height: auto;
+    padding: 2%;
+    margin-bottom: 1rem;
+}
+
+.feature-image:hover {
+    color: #ff4c68;
+}
+
+#testimonials {
+    color: #fff;
+    background-color: #7e7474;
+    background-color: #a4b3b6;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#pricing {
+    padding: 10%;
+}
+
+.card {
+    padding: 3% 2%;
+}
+
+
+/*Media query style rules*/
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        width: 50%;
+        height: auto;
+        transform: rotate(0);
+        position: static;
+        border-radius: 9%;
+    }
+}
+
+#footer {
+    /* background-color: #7e7474;*/
+    background-color: #557a95;
+    /* background-color: #dd3333;*/
+    text-align: left;
+}
+
+.footer {
+    margin: 5% 10%;
+    padding-top: 5%;
+}
+
+.footer-div {
+    padding: 3% 4%;
+}
+
+.footer-box {
+    color: #222;
+    color: #ffffff;
+    padding-top: 2%;
+}
+
+.contact-details {
+    text-align: left;
+}
+
+.bottom-container {
+    padding: 2% 3%;
+    background-color: #222;
+    background-color: #fff;
+    text-align: center;
+}
+
+.footer-link {
+    color: #11999e;
+    color: #dd3333;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+}
+
+.copyright {
+    color: #56509f;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
